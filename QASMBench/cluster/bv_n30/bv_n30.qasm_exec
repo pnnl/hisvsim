@@ -1,0 +1,435 @@
+QUBIT ALLOCATION
+qr
+NUM: 30
+------
+gate: h
+parameters: 
+
+on qubits
+qr[0]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[1]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[2]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[3]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[4]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[5]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[6]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[7]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[8]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[9]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[10]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[11]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[12]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[13]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[14]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[15]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[16]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[17]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[18]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[19]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[20]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[21]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[22]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[23]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[24]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[25]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[26]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[27]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[28]
+------
+gate: x
+parameters: 
+
+on qubits
+qr[29]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[0] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[1] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[6] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[9] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[13] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[16] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[17] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[19] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[21] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[22] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[23] qr[29]
+------
+gate: cx
+parameters: 
+
+on qubits
+qr[25] qr[29]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[0]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[1]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[2]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[3]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[4]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[5]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[6]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[7]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[8]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[9]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[10]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[11]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[12]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[13]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[14]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[15]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[16]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[17]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[18]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[19]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[20]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[21]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[22]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[23]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[24]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[25]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[26]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[27]
+------
+gate: h
+parameters: 
+
+on qubits
+qr[28]

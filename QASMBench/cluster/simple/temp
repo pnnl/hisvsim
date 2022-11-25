@@ -1,0 +1,71 @@
+x q[0];     //x q[0], x q[1], cx q[0],q[2] | h q[0], h q[1], y q[1], cx q[0], q[1] |
+x q[1];            // fuse1 (x q[0], cx q[0], q[2]) fuse2 (x q[1], h q[1]
+x q[2];
+x q[3];
+x q[4];
+cx q[0],q[2];
+x q[5];
+h q[0];
+h q[1];
+h q[2];
+h q[3];
+h q[4];
+h q[5];
+// [0,1] [2,3] [4,5]
+cx q[0],q[1]; // merge [0,1]
+y q[1];
+z q[3];
+cx q[0],q[1];
+h q[3];
+h q[4];
+x q[6];
+//@author Raymond Harry Rudy rudyhar@jp.ibm.com
+//Bernstein-Vazirani with 14 qubits.
+//Hidden string is 1111111111111
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg qr[14];
+creg cr[13];
+h qr[0];
+h qr[1];
+h qr[2];
+h qr[3];
+h qr[4];
+h qr[5];
+h qr[6];
+h qr[7];
+h qr[8];
+h qr[9];
+h qr[10];
+h qr[11];
+h qr[12];
+x qr[13];
+h qr[13];
+barrier qr[0],qr[1],qr[2],qr[3],qr[4],qr[5],qr[6],qr[7],qr[8],qr[9],qr[10],qr[11],qr[12],qr[13];
+cx qr[0],qr[13];
+cx qr[1],qr[13];
+cx qr[2],qr[13];
+cx qr[3],qr[13];
+cx qr[4],qr[13];
+cx qr[5],qr[13];
+cx qr[6],qr[13];
+cx qr[7],qr[13];
+cx qr[8],qr[13];
+cx qr[9],qr[13];
+cx qr[10],qr[13];
+cx qr[11],qr[13];
+cx qr[12],qr[13];
+barrier qr[0],qr[1],qr[2],qr[3],qr[4],qr[5],qr[6],qr[7],qr[8],qr[9],qr[10],qr[11],qr[12],qr[13];
+h qr[0];
+h qr[1];
+h qr[2];
+h qr[3];
+h qr[4];
+h qr[5];
+h qr[6];
+h qr[7];
+h qr[8];
+h qr[9];
+h qr[10];
+h qr[11];
+h qr[12];
