@@ -54,10 +54,9 @@ or, to run the whole process in one shot:
     python qasm_assembler_standalone.py --dot --parts --app bv_n26 --init 8 --n 8 --alloc 0 --partfile PART_0.txt --slots (assuming you already put the the code that generates the parts file inside the qasm_assembler_standalone.py at the indicated location)
 
 run with MPI
-  '''
-  mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile bv_n30_part_smart --mpi --nlocal 26
-
-  '''
+'''
+mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile bv_n30_part_smart --mpi --nlocal 26
+'''
 run with multi-level MPI
 
   '''
