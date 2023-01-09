@@ -78,6 +78,6 @@ Bo Fang, M. Yusuf Özkaya, Ang Li, Ümit V. Çatalyürek, Sriram Krishnamoorthy,
 "Efficient Hierarchical State Vector Simulation of Quantum Circuits via Acyclic Graph Partitioning",
 IEEE CLUSTER, 2022  Best paper award.
 
-Arxiv version: https://arxiv.org/pdf/2205.06973.pdf
+arXiv: https://arxiv.org/pdf/2205.06973.pdf
 
 
