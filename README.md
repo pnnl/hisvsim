@@ -47,22 +47,22 @@ to run with the parts file
 
     python qasm_assembler_standalone.py --parts --app bv_n26 --n 8 --alloc 0 --partfile PART_0.txt (assuming the dot files are arealy generated) --slots
 
-   * python qasm_assembler_standalone.py --app bv_n19 --initn 8 --n 1 --alloc 0 --parts --partfile bv_n19_part_smart --slots
+    python qasm_assembler_standalone.py --app bv_n19 --initn 8 --n 1 --alloc 0 --parts --partfile bv_n19_part_smart --slots
 
 or, to run the whole process in one shot:
 
     python qasm_assembler_standalone.py --dot --parts --app bv_n26 --init 8 --n 8 --alloc 0 --partfile PART_0.txt --slots (assuming you already put the the code that generates the parts file inside the qasm_assembler_standalone.py at the indicated location)
 
 run with MPI
-'''
-mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile bv_n30_part_smart --mpi --nlocal 26
-'''
+
+
+`mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile bv_n30_part_smart --mpi --nlocal 26
+`
+
 run with multi-level MPI
 
-  '''
+ `mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile directory_to_all_parts_file --mpi --multi --nlocal 26`
  
- mpirun -n 16 python3 qasm_assembler_standalone.py --app bv_n30 --n 1 --initn 1 --slots --alloc 0 --parts --partfile directory_to_all_parts_file --mpi --multi --nlocal 26
-  '''
 
 #Note
 
@@ -71,7 +71,7 @@ Currently the qasm_assembler_standalone.py is set up to run with the QASMBench. 
 
 This work is a collaboration between Pacific Northwest National Laboratory (PNNL) and TDALab.
 
-================================
+================================<br>
 If you use HiSVSIM, please cite:
 
 Bo Fang, M. Yusuf Özkaya, Ang Li, Ümit V. Çatalyürek, Sriram Krishnamoorthy,
